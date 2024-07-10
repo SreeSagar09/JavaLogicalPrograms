@@ -1,0 +1,14 @@
+1. A Program to reverse the characters in the string.
+Program:StringLogicalProgram1.java
+Output:
+Please Enter String:
+Hai to every one
+eno yreve ot iaH
+------------------------------------------------------
+2. A Program to reverse the words in the string.
+Program:StringLogicalProgram2.java
+Output:
+Please Enter String:
+Hai to every one
+one every to Hai
+------------------------------------------------------
