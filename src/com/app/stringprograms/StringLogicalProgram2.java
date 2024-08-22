@@ -1,4 +1,4 @@
-package com.app.String_Class;
+package com.app.stringprograms;
 
 import java.util.Scanner;
 
