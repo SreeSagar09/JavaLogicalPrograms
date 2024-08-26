@@ -1,14 +1,78 @@
-1. A Program to reverse the characters in the string.
+1. A Program to reverse the characters in the string:
 Program:StringLogicalProgram1.java
 Output:
 Please Enter String:
 Hai to every one
 eno yreve ot iaH
 ------------------------------------------------------
-2. A Program to reverse the words in the string.
+2. A Program to reverse the words in the string:
 Program:StringLogicalProgram2.java
 Output:
 Please Enter String:
 Hai to every one
 one every to Hai
 ------------------------------------------------------
+3. A Program to move given character to starting of the string:
+Program:StringLogicalProgram3.java
+Output:
+Please enter the string:
+abcdewfghijklmnowpqrstuvwxyz
+Enter character to move statrting:
+w
+wwwabcdefghijklmnopqrstuvxyz
+--------------------------------------------------------
+4. A Program to move given character to ending of the string:
+Program:StringLogicalogram4.java
+Output:
+Please enter the string:
+abcdewfghijklmnowpqrstuvwxyz
+Enter character to move ending:
+w
+abcdefghijklmnopqrstuvxyzwww
+-----------------------------------------------------------
+5. A Program to check whether the given string contain Vowels or not:
+Program:StrinLogicalProgram5.java
+Output:
+Please enter the string:
+Sree sagar Mamidala
+----- By using Pattern class matcher method -------
+Sree sagar Mamidala is contain Vowels.
+----- By using String class contains method -------
+Sree sagar Mamidala is contain Vowels.
+----- By using String class replaceAll, equals methods -------
+Sree sagar Mamidala is contain Vowels.
+----- By using Loops -------
+Sree sagar Mamidala is contain Vowels.
+---------------------------------------------------------------
+6. A Program to check whether the given string contain Numbers or not:
+Program:StringLogicalProgram6.java
+Output:
+Please enter the string:
+Sree sagar Mamidala
+-------- By using Pattern class predefined method -------
+Sree sagar Mamidala is not contain Numbers.
+-------- By using String class contains method -------
+Sree sagar Mamidala is not contain Numbers.
+-------- By using String class replaceAll, equals method -------
+Sree sagar Mamidala is contain Numbers.
+-------- By using Loops -------
+Sree sagar Mamidala is not contain Numbers.
+----------------------------------------------------------------
+7. A Program to check whether the given string is Anagram or not:
+Program:StringLogicalProgram7.java
+Note:
+* An anagram of a string is another string that contain the same characters, only the order of characters can be different.
+* Examples of anagram is: act and tac, listen and silent, Dormitory and Dirty Room, School Master and The Classroom
+Output:
+Please enter first string:
+school master
+Please enter second string:
+the class room
+----- By using Arrays class sort, equals methods -------
+school master, the class room both are anagram strings.
+----- By using String class replaceFirst, isEmpty methods -------
+school master, the class room both are anagram strings.
+----- By using StringBuffer class deleteCharAt, indexOf methods -------
+school master, the class room both are anagram strings.
+----- By using Loops -------
+school master, the class room both are anagram strings.
