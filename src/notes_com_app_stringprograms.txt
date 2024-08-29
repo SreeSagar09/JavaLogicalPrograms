@@ -5,6 +5,7 @@ Please Enter String:
 Hai to every one
 eno yreve ot iaH
 ------------------------------------------------------
+
 2. A Program to reverse the words in the string:
 Program:StringLogicalProgram2.java
 Output:
@@ -12,6 +13,7 @@ Please Enter String:
 Hai to every one
 one every to Hai
 ------------------------------------------------------
+
 3. A Program to move given character to starting of the string:
 Program:StringLogicalProgram3.java
 Output:
@@ -21,6 +23,7 @@ Enter character to move statrting:
 w
 wwwabcdefghijklmnopqrstuvxyz
 --------------------------------------------------------
+
 4. A Program to move given character to ending of the string:
 Program:StringLogicalogram4.java
 Output:
@@ -30,6 +33,7 @@ Enter character to move ending:
 w
 abcdefghijklmnopqrstuvxyzwww
 -----------------------------------------------------------
+
 5. A Program to check whether the given string contain Vowels or not:
 Program:StrinLogicalProgram5.java
 Output:
@@ -44,6 +48,7 @@ Sree sagar Mamidala is contain Vowels.
 ----- By using Loops -------
 Sree sagar Mamidala is contain Vowels.
 ---------------------------------------------------------------
+
 6. A Program to check whether the given string contain Numbers or not:
 Program:StringLogicalProgram6.java
 Output:
@@ -58,6 +63,7 @@ Sree sagar Mamidala is contain Numbers.
 -------- By using Loops -------
 Sree sagar Mamidala is not contain Numbers.
 ----------------------------------------------------------------
+
 7. A Program to check whether the given string is Anagram or not:
 Program:StringLogicalProgram7.java
 Note:
@@ -76,3 +82,9 @@ school master, the class room both are anagram strings.
 school master, the class room both are anagram strings.
 ----- By using Loops -------
 school master, the class room both are anagram strings.
+------------------------------------------------------------------
+
+8. A Program to check whether the given string is Palindrome or not:
+Program:StringLogicalProgram8.java
+Note:
+Output:
