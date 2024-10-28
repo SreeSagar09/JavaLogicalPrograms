@@ -87,4 +87,49 @@ school master, the class room both are anagram strings.
 8. A Program to check whether the given string is Palindrome or not:
 Program:StringLogicalProgram8.java
 Note:
+* A palindrome is a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards.
+* Examples of palindrome is madam, racecar, mom and dad.
 Output:
+Please enter input string:
+abcdcba
+---- By using StringBuffer class reverse method ----
+abcdcba is palindrome string
+---- By using String class replace, charAt and equals methods ----
+abcdcba is palindrome string
+----- By using Loops ------
+abcdcba is palindrome string
+-----------------------------------------------------------------------
+
+9. A Program to find the occurance of given character in the string:
+Program:StringLogicalProgram9.java
+Output:
+Please enter input string:
+Sree Sagar
+Please enter Character to find ocuurance:
+e
+-------  By using Loops -------
+Occurance of 'e' is: 2
+--- By using Stream interface collect and Collectors class groupingBy, counting methods ---
+Occurance of 'e' is: 2
+------------------------------------------------------------------------
+
+10. A Program to find the max length string from given string array.
+Program:StringLogicalProgram10.java
+Output:
+----- By using Math class max method and Loops ------
+Olive Green
+--------- By using HashMap class and Math class max method ------
+Olive Green
+------ By using Stream interface, HashMap class and Math class max method -----
+Olive Green
+-----------------------------------------------------------------------------
+
+10. A Program to find the min length string from given string array.
+Program:StringLogicalProgram10.java
+Output:
+----- By using Math class max method and Loops ------
+Gray
+---- By using HashMap class and Math class max method ------
+Gray
+----- By using Stream interface, HashMap class and Math class max method -----
+Gray
