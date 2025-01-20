@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class StringLogicalProgram4 {
 	
-	public static String moveEnding(String input, char element) {
+	public static String moveEnding1(String input, char element) {
 		char[] array = input.toCharArray();
 		int length = array.length;
 		int index = array.length-1;
@@ -27,6 +27,15 @@ public class StringLogicalProgram4 {
 		return new String(array);
 	}
 	
+	public static String moveEnding2(String input, char element) {
+		for(int i=0; i<input.length(); i++) {
+			input = input.replaceFirst(String.valueOf(element), "");
+			input = input+String.valueOf(element);
+		}
+		
+		return input;
+	}
+	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please enter the string:");
@@ -34,8 +43,12 @@ public class StringLogicalProgram4 {
 
 		System.out.println("Enter character to move ending:");
 		char element = scanner.nextLine().charAt(0);
-		String result = moveEnding(input, element);
-		System.out.println(result);
+		System.out.println("------ By converting into Array ------");
+		String result1 = moveEnding1(input, element);
+		System.out.println(result1);
+		System.out.println("-------- By using String Class replaceFirst method -------");
+		String result2 = moveEnding2(input, element);
+		System.out.println(result2);
 	}
 
 }

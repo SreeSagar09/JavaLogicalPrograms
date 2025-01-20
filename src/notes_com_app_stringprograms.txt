@@ -19,9 +19,12 @@ Program:StringLogicalProgram3.java
 Output:
 Please enter the string:
 abcdewfghijklmnowpqrstuvwxyz
-Enter character to move statrting:
-w
-wwwabcdefghijklmnopqrstuvxyz
+Enter character to move starting:
+m
+------ By converting into Array ------
+mabcdewfghijklnowpqrstuvwxyz
+-------- By using String Class replaceFirst method -------
+mabcdewfghijklnowpqrstuvwxyz
 --------------------------------------------------------
 
 4. A Program to move given character to ending of the string:
@@ -30,8 +33,11 @@ Output:
 Please enter the string:
 abcdewfghijklmnowpqrstuvwxyz
 Enter character to move ending:
-w
-abcdefghijklmnopqrstuvxyzwww
+s
+------ By converting into Array ------
+abcdewfghijklmnowpqrtuvwxyzs
+-------- By using String Class replaceFirst method -------
+abcdewfghijklmnowpqrtuvwxyzs
 -----------------------------------------------------------
 
 5. A Program to check whether the given string contain Vowels or not:

@@ -1,0 +1,48 @@
+1. A Program to find even or odd number:
+Program:NumberLogicalProgram1.java
+Output:
+Please enter number
+901
+By using modulus operator
+901 :is Odd Number
+By using bit wise AND operator
+901 :is Odd Number
+--------------------------------------------
+
+2. A Program to reverse the number:
+Program:NumberLogicalProgram2.java
+Output:
+Please enter number
+120678
+By using modulus and arithmetic operator
+Original number: 120678, Reverse number: 876021
+By using String class methods
+Original number: 120678, Reverse number: 876021
+By using StringBuilder class reverse method
+Original number: 120678, Reverse number: 876021
+-----------------------------------------------
+
+3. A Program to swap to numbers
+Program:NumberLogicalProgram3.java
+Output:
+Enter first number
+3
+Enter second number
+4
+Swap two numbers using third variable
+Before swapping a: 3, b: 4
+After swapping a: 4, b: 3
+Swap two numbers without using third variable
+Before swapping a: 3, b: 4
+After swapping a: 4, b: 3
+-------------------------------------------------
+
+4. A Program to generate Fibonacci series:
+Program:NumberLogicalProgram4.java
+Output:
+Please enter length
+10
+By using Loops
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+By using recursive method
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34
