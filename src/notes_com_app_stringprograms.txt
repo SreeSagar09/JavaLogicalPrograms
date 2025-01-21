@@ -119,7 +119,7 @@ Occurance of 'e' is: 2
 Occurance of 'e' is: 2
 ------------------------------------------------------------------------
 
-10. A Program to find the max length string from given string array.
+10. A Program to find the max length string from given string array:
 Program:StringLogicalProgram10.java
 Output:
 ----- By using Math class max method and Loops ------
@@ -130,8 +130,8 @@ Olive Green
 Olive Green
 -----------------------------------------------------------------------------
 
-10. A Program to find the min length string from given string array.
-Program:StringLogicalProgram10.java
+11. A Program to find the min length string from given string array:
+Program:StringLogicalProgram11.java
 Output:
 ----- By using Math class max method and Loops ------
 Gray
@@ -139,3 +139,32 @@ Gray
 Gray
 ----- By using Stream interface, HashMap class and Math class max method -----
 Gray
+--------------------------------------------------------------------------
+
+12. A Program to find how many Vowels in the given String:
+Program:StringLogicalProgram12.java
+Output:
+Please enter string
+sree sagar
+-------- By using Loops ----------
+4
+-------- By using String class contains methods ----------
+4
+----------------------------------------------------------------------------
+
+13. A Program to find maximum occurring of character in the String:
+Program:StringLogicalProgram13.java
+Output:
+Please enter the String
+Mamidala Sree sagar
+-------- By using HashMap --------
+a
+----------------------------------------------------------------------------
+
+14. A Program to find minmum occurring of character in the String:
+Program:StringLogicalProgram14.java
+Output:
+Please enter the String
+Mamidala Sree Sagar
+-------- By using HashMap --------
+d
