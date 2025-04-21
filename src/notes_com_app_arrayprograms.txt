@@ -1,0 +1,38 @@
+1. A Program to Sort the Integer Array in ascending order:
+Program:ArrayProgram1.java
+Input:
+15, 2, 5, 10, 4, 3, 1, 2
+Output:
+1, 2, 2, 3, 4, 5, 10, 15
+------------------------------------------------
+
+2. A Program to Sort the Integer Array in descending order:
+Program:ArrayProgram2.java
+Input:
+15, 2, 5, 10, 4, 3, 1, 2
+Output:
+15, 10, 5, 4, 3, 2, 2, 1
+--------------------------------------------------
+
+3. A Program to do not sort first and last value and sort remaining values in ascending order:
+Program:ArrayProgram3.java
+Input:
+15, 2, 5, 10, 4, 3, 1, 2
+Output:
+15, 1, 2, 3, 4, 5, 10, 2
+-------------------------------------------------
+
+4. A Program to Sort the String Array in ascending order:
+Program:ArrayProgram4.java
+Input:
+AB, AAB, BC, BA, AA
+Output:
+AA, AAB, AB, BA, BC
+-------------------------------------------------
+
+5. A Program to Sort the String Array in descending order:
+Program:ArrayProgram5.java
+Input:
+AB, AAB, BC, BA, AA
+Output:
+BC, BA, AB, AAB, AA

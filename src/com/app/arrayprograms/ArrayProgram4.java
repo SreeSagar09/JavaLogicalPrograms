@@ -1,13 +1,13 @@
 package com.app.arrayprograms;
 
-public class ArrayProgram1 {
-
-	public static Integer[] sortAscendingOrder(Integer[] input) {
-		Integer temp;
+public class ArrayProgram4 {
+	
+	public static String[] sortAscendingOrder(String[] input) {
+		String temp;
 		
 		for(int i=0; i<input.length; i++) {
 			for(int j=i+1; j<input.length; j++) {
-				if(input[i]>input[j]) {
+				if(input[i].compareToIgnoreCase(input[j])>0) {
 					temp = input[i];
 					input[i] = input[j];
 					input[j] = temp;
@@ -19,9 +19,9 @@ public class ArrayProgram1 {
 	}
 	
 	public static void main(String[] args) {
-		Integer[] input = {15, 2, 5, 10, 4, 3, 1, 2};
+		String[] input = {"AB", "AAB", "BC", "BA", "AA"};
 		
-		Integer[] result = ArrayProgram1.sortAscendingOrder(input);
+		String[] result = ArrayProgram4.sortAscendingOrder(input);
 		
 		for(int i=0; i<result.length; i++) {
 			if(i == result.length-1) {

@@ -1,0 +1,16 @@
+1. A Program to sort the array using Bubble sorting:
+Program:BubbleSortingProgram1.java
+Output:
+Before sorting
+5 8 2 3 1 
+After sorting ascending order
+1 2 3 5 8 
+Before sorting
+5 8 2 3 1 
+After sorting descending order
+8 5 3 2 1 
+------------------------------------------------------
+
+1. A Program to sort the array using Selection sorting:
+Program:SelectionSortingProgram1.java
+Output:
