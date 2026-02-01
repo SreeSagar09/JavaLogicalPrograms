@@ -1,0 +1,5 @@
+1. A Program to search the value by using linear search:
+Program:LinearSearchProgram1.java
+Output:
+Index of 9 is: -1
+------------------------------------------------------

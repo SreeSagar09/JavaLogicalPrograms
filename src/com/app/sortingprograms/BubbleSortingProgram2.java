@@ -1,50 +1,44 @@
 package com.app.sortingprograms;
 
-public class SelectionSortingProgram1 {
+public class BubbleSortingProgram2 {
 
+	// To sort ascending order by using bubble sorting
 	public static int[] sortingAsc(int[] input) {
 		int length = input.length;
-
-		int temp, minIndex;
+		int temp;
 		for(int i=0; i<length-1; i++) {
-
-			minIndex = i;
-			for(int j=i+1; j<length; j++) {
-				if(input[j] < input[minIndex]) {
-					minIndex = j;
+			for(int j=i; j<length-1; j++) {
+				if(input[i] > input[j+1]) {
+					temp = input[i];
+					input[i] = input[j+1];
+					input[j+1] = temp;
 				}
 			}
-			
-			temp = input[minIndex];
-			input[minIndex] = input[i];
-			input[i] = temp;
 		}
 
 		return input;
 	}
-	
+
+	// To sort descending order by using bubble sorting
 	public static int[] sortingDesc(int[] input) {
 		int length = input.length;
-		
-		int temp, maxIndex;
+		int temp;
+
 		for(int i=0; i<length-1; i++) {
-			maxIndex = i;
-			for(int j=i+1; j<length; j++) {
-				if(input[j]>input[maxIndex]) {
-					maxIndex = j;
+			for(int j=i; j<length-1; j++) {
+				if(input[i] < input[j+1]) {
+					temp = input[i];
+					input[i] = input[j+1];
+					input[j+1] = temp;
 				}
 			}
-			
-			temp = input[maxIndex];
-			input[maxIndex] = input[i];
-			input[i] = temp;
 		}
-		
+
 		return input;
 	}
 
 	public static void main(String[] args) {
-		int[] input1 = {5, 8, 2, 3, 1};
+		int[] input1 = {5, 8, 2, 3, 1, 4};
 
 		System.out.println("Before sorting");
 		for(int i : input1) {
@@ -57,8 +51,8 @@ public class SelectionSortingProgram1 {
 		for(int i : input1) {
 			System.out.print(i+" ");
 		}
-		
-		int[] input2 = {5, 8, 2, 3, 1};
+
+		int[] input2 = {5, 8, 2, 3, 1, 4};
 
 		System.out.println("\nBefore sorting");
 		for(int i : input2) {
@@ -71,7 +65,5 @@ public class SelectionSortingProgram1 {
 		for(int i : input2) {
 			System.out.print(i+" ");
 		}
-
 	}
-
 }
