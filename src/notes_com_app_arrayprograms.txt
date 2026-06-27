@@ -65,10 +65,49 @@ Min value: 3
 Max value: 15
 ------------------------------------------------
 
-8. A program to get min, max values index in the array:
+9. A program to get min, max values index in the array:
 Program:ArrayProgram9.java
 Input:
 Original integer array
 6, 15, 7, 8, 9, 3, 10
 Min value index: 5
 Max value index: 1
+------------------------------------------------
+
+10. A program to reverse the array:
+Program:ArrayProgram10.java
+Input:
+Original integer array
+0, 1, 2, 3, 4, 5, 6
+Reversed integer array
+6, 5, 4, 3, 2, 1, 0
+------------------------------------------------
+
+11. A program to find the max sum of sub array:
+Program:ArrayProgram11.java
+Input:
+Max sum by BruteForce approach: 8
+Max sum by Kadane algorithm: 8
+------------------------------------------------
+
+12. A program to print possible sub arrays:
+Program:ArrayProgram12.java
+Input:
+Original array:
+1, 2, 3, 4, 5
+Possible sub arrays:
+1
+1, 2
+1, 2, 3
+1, 2, 3, 4
+1, 2, 3, 4, 5
+2
+2, 3
+2, 3, 4
+2, 3, 4, 5
+3
+3, 4
+3, 4, 5
+4
+4, 5
+5
