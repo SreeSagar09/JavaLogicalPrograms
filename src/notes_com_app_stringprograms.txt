@@ -161,10 +161,24 @@ Mamidala Sree sagar
 a
 ----------------------------------------------------------------------------
 
-14. A Program to find minmum occurring of character in the String:
+14. A Program to find minimum occurring of character in the String:
 Program:StringLogicalProgram14.java
 Output:
 Please enter the String
 Mamidala Sree Sagar
 -------- By using HashMap --------
 d
+----------------------------------------------------------------------------
+
+15. A Program to get the longest non repeating sub string from the String:
+Program:StringLogicalProgram15.java
+Output:
+Original string: abcadeab
+Longest non pepeating sub string: bcade
+----------------------------------------------------------------------------
+
+16. A Program to get the longest consecutive repeating sub string from the String:
+Program:StringLogicalProgram15.java
+Output:
+Original string: aabbbccccaa
+Longest consecutive repeating sub string: cccc
