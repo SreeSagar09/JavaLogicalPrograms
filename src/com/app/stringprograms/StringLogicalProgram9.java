@@ -32,8 +32,10 @@ public class StringLogicalProgram9 {
 		if (!input.trim().isEmpty()) {
 			input = input.replaceAll("\\s", "");
 
-			Map<String, Long> map = Stream.of(input.split("")).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-			Long l = map.containsKey(c+"")?map.get(c+""):0;
+			Map<Character, Long> map = Stream.of(input.split(""))
+					.collect(Collectors.groupingBy((ch)->{return ch.charAt(0);}, Collectors.counting()));
+			
+			Long l = map.containsKey(c)?map.get(c):0;
 			count = l.intValue();
 		}
 		return count;

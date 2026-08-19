@@ -178,7 +178,16 @@ Longest non pepeating sub string: bcade
 ----------------------------------------------------------------------------
 
 16. A Program to get the longest consecutive repeating sub string from the String:
-Program:StringLogicalProgram15.java
+Program:StringLogicalProgram16.java
 Output:
 Original string: aabbbccccaa
 Longest consecutive repeating sub string: cccc
+----------------------------------------------------------------------------
+
+17. A Program to check the given String has balanced brackets or not:
+Program:StringLogicalProgram17.java
+Output:
+------- By using Stack class methods --------
+{Abs23{{Bcd23}(})}} is balanced: false
+-------- By using ArrayDeque class methods --------
+{Abs23{{Bcd23}(})}} is balanced: false
