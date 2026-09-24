@@ -191,3 +191,12 @@ Output:
 {Abs23{{Bcd23}(})}} is balanced: false
 -------- By using ArrayDeque class methods --------
 {Abs23{{Bcd23}(})}} is balanced: false
+----------------------------------------------------------------------------
+
+18. A Program to get the longest consecutive repeating sub string length from the String:
+Program:StringLogicalProgram18.java
+Output:
+Original string: aabbbccccaa
+Longest consecutive repeating sub string length: 4
+----------------------------------------------------------------------------
+

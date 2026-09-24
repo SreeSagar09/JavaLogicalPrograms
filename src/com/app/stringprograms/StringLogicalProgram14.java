@@ -10,6 +10,10 @@ public class StringLogicalProgram14 {
 	// By using HashMap
 	public static char findMinOccurringCharacter(String input) {
 		char minOccurringChar = '\0';
+		if(input == null || input.trim().isEmpty()) {
+			return minOccurringChar;
+		}
+		
 		Integer minCount = input.length();
 		HashMap<Character, Integer> charOccurenceMap = new HashMap<>();
 

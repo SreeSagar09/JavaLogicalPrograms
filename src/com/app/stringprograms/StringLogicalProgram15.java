@@ -6,11 +6,15 @@ import java.util.Map;
 public class StringLogicalProgram15 {
 	
 	public static String getLongestNonRepeatingSubString(String input) {
+		if(input == null || input.trim().isEmpty()) {
+			return "";
+		}
+		
 		Map<Character, Integer> indexMap = new HashMap<>();
 		
 		int left = 0;
-		int maxLength = 0;
 		int maxStart = 0;
+		int maxLength = 0;
 		
 		for(int right=0; right<input.length(); right++) {
 			char c = input.charAt(right);

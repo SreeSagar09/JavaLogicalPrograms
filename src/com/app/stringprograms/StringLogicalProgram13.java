@@ -10,6 +10,10 @@ public class StringLogicalProgram13 {
 	// By using HashMap
 	public static char findMaxOccurringCharacter(String input) {
 		char maxOccurringChar = '\0';
+		if(input == null || input.trim().isEmpty()) {
+			return maxOccurringChar;
+		}
+		
 		Integer maxCount = 0;
 		HashMap<Character, Integer> charOccurenceMap = new HashMap<>();
 		

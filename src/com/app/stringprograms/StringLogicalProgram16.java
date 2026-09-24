@@ -3,22 +3,26 @@ package com.app.stringprograms;
 public class StringLogicalProgram16 {
 	
 	public static String getLongestConsecutiveRepeatingSubString(String input) {
-		int start = 0;
+		if(input == null || input.trim().isEmpty()) {
+			return "";
+		}
+		
+		int left = 0;
 		int maxStart = 0;
 		int maxLength = 1;
 		int currentLength = 1;
 		
-		for(int i=1; i<input.length(); i++) {
-			if(input.charAt(i) == input.charAt(i-1)) {
+		for(int right=1; right<input.length(); right++) {
+			if(input.charAt(right) == input.charAt(right-1)) {
 				currentLength++;
 			}else {
-				start = i;
+				left = right;
 				currentLength = 1;
 			}
 			
 			if(currentLength > maxLength) {
 				maxLength = currentLength;
-				maxStart = start;
+				maxStart = left;
 			}
 		}
 		

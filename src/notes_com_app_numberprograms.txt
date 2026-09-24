@@ -46,3 +46,12 @@ By using Loops
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 By using recursive method
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+
+-------------------------------------------------
+
+4. A Program to find minimum length sub array sum greater than the given target:
+Program:NumberLogicalProgram5.java
+Output:
+Sub Array values: 
+4
+3
