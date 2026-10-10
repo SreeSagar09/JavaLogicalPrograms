@@ -115,7 +115,31 @@ public class StringLogicalProgram7 {
 		}
 		
 		return result;
+	}public static boolean isGivenStringsAnagram5(String input1, String input2) {
+		input1 = input1.replaceAll("\\s", "").toLowerCase();
+		input2 = input2.replaceAll("\\s", "").toLowerCase();
+		
+		if(input1.length() != input2.length()) {
+			return false;
+		}else {
+			int[] charCount = new int[256];
+			
+			for(int i=0; i<input1.length(); i++) {
+				charCount[input1.charAt(i)]++;
+				charCount[input2.charAt(i)]--;
+			}
+			
+			for(int count : charCount) {
+				if(count != 0) {
+					return false;
+				}
+			}
+		}
+		
+		return true;
 	}
+	
+	
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -152,6 +176,14 @@ public class StringLogicalProgram7 {
 		System.out.println("----- By using Loops -------");
 		boolean result4 = isGivenStringsAnagram4(input1, input2);
 		if(result4) {
+			System.out.println(input1+", "+input2+" both are anagram strings.");
+		}else {
+			System.out.println(input1+", "+input2+" both are not anagram strings.");
+		}
+		
+		System.out.println("----- By using int counter -------");
+		boolean result5 = isGivenStringsAnagram5(input1, input2);
+		if(result5) {
 			System.out.println(input1+", "+input2+" both are anagram strings.");
 		}else {
 			System.out.println(input1+", "+input2+" both are not anagram strings.");

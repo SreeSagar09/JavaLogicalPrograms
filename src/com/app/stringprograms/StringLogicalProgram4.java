@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class StringLogicalProgram4 {
 	
 	public static String moveEnding1(String input, char element) {
+		if(input == null || input.length() == 0) {
+			return input;
+		}
+		
 		char[] array = input.toCharArray();
 		int length = array.length;
 		int index = array.length-1;
